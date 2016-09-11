@@ -13,6 +13,12 @@ class Point {
 
 	BigDecimal x
 	BigDecimal y
+	
+	/**
+	 * Constructor default para que lo pueda usar algun
+	 * framework
+	 */
+	private new() {}
 
 	/**
 	 * Constructor para valores enteros

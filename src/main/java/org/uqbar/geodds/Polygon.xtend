@@ -14,7 +14,7 @@ import static extension org.uqbar.geodds.NumberUtils.*
  */
 class Polygon {
 
-	List<Point> surface
+	protected List<Point> surface
 
 	/**
 	 * Constructor default, obliga luego a agregar los puntos manualmente mediante el mensaje add(Point point). <br><br>
