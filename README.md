@@ -6,6 +6,6 @@ Proyecto con clases de dominio base para el TP de Diseño de Puntos de Interés 
   <dependency>
       <groupId>org.uqbar-project</groupId>
       <artifactId>geodds-xtend</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.2</version>
   </dependency>
 ```
