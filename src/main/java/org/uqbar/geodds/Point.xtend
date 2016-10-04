@@ -47,19 +47,19 @@ class Point {
 	static def and(double aX, double aY) {
 		new Point(aX, aY)
 	}
-
+	
 	/**
 	 * Indica la latitud del punto (su abscisa)
 	 */
 	def latitude() {
-		x.doubleValue
+		this.getX()
 	}
 
 	/**
 	 * Indica la longitud del punto (su ordenada)
 	 */
 	def longitude() {
-		y.doubleValue
+		this.getY()
 	}
 
 	/** 
@@ -121,4 +121,25 @@ class Point {
 		"x: " + x + ", y: " + y
 	}
 	
+	
+	/**
+	 * Public accessors para que los puedan usar algun
+	 * framework
+	 */
+	 
+	def getX() {
+		x.doubleValue
+	}
+
+	def void setX(double aX) {
+		x = new BigDecimal(aX)
+	}
+	
+	def getY() {
+		y.doubleValue
+	}
+
+	def void setY(double aY) {
+		y = new BigDecimal(aY)
+	}
 }
