@@ -4,6 +4,7 @@ import java.util.ArrayList
 import java.util.List
 
 import static extension org.uqbar.geodds.NumberUtils.*
+import org.eclipse.xtend.lib.annotations.Accessors
 
 /**
  * Define una zona conformada por vértices (un conjunto de puntos)<br>
@@ -12,6 +13,7 @@ import static extension org.uqbar.geodds.NumberUtils.*
  * <br>
  * @author DDS
  */
+@Accessors
 class Polygon {
 
 	protected List<Point> surface
